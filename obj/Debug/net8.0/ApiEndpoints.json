@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "HRManagement.Controllers.UsersController",
+    "Method": "SignIn",
+    "RelativePath": "api/Users/signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signInDTO",
+        "Type": "HRManagement.DTO.SignInDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagement.Controllers.UsersController",
+    "Method": "SignUp",
+    "RelativePath": "api/Users/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signUpDTO",
+        "Type": "HRManagement.DTO.SignUpDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
