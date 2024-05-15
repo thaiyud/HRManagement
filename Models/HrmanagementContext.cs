@@ -35,97 +35,77 @@ public partial class HrmanagementContext : DbContext
     {
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Roles__8AFACE1A12385CC7");
+            entity.HasKey(e => e.Id).HasName("PK_AspNetRoles");
 
-            entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.RoleName).HasMaxLength(256);
+            entity.Property(e => e.Name).HasMaxLength(256);
+            entity.Property(e => e.NormalizedName).HasMaxLength(256);
         });
 
         modelBuilder.Entity<RoleClaim>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__RoleClai__BB90E956808A2DFC");
+            entity.HasKey(e => e.Id).HasName("PK_AspNetRoleClaims");
 
-            entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.ClaimType).HasMaxLength(256);
-            entity.Property(e => e.ClaimValue).HasMaxLength(256);
+            entity.Property(e => e.RoleId).HasMaxLength(450);
 
             entity.HasOne(d => d.Role).WithMany(p => p.RoleClaims)
                 .HasForeignKey(d => d.RoleId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__RoleClaim__RoleI__30F848ED");
+                .HasConstraintName("FK_AspNetRoleClaims_AspNetRoles_RoleId");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Users__1788CC4C0CE438F1");
+            entity.HasKey(e => e.Id).HasName("PK_AspNetUsers");
 
-            entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Email).HasMaxLength(256);
-            entity.Property(e => e.FirstName).HasMaxLength(256);
-            entity.Property(e => e.LastName).HasMaxLength(256);
-            entity.Property(e => e.PasswordHash).HasMaxLength(256);
-            entity.Property(e => e.PhoneNumber).HasMaxLength(256);
-            entity.Property(e => e.Username).HasMaxLength(256);
+            entity.Property(e => e.NormalizedEmail).HasMaxLength(256);
+            entity.Property(e => e.NormalizedUserName).HasMaxLength(256);
+            entity.Property(e => e.UserName).HasMaxLength(256);
 
             entity.HasMany(d => d.Roles).WithMany(p => p.Users)
                 .UsingEntity<Dictionary<string, object>>(
                     "UserRole",
                     r => r.HasOne<Role>().WithMany()
                         .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__UserRoles__RoleI__34C8D9D1"),
+                        .HasConstraintName("FK_AspNetUserRoles_AspNetRoles_RoleId"),
                     l => l.HasOne<User>().WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__UserRoles__UserI__33D4B598"),
+                        .HasConstraintName("FK_AspNetUserRoles_AspNetUsers_UserId"),
                     j =>
                     {
-                        j.HasKey("UserId", "RoleId").HasName("PK__UserRole__AF2760AD10DDAB97");
+                        j.HasKey("UserId", "RoleId").HasName("PK_AspNetUserRoles");
                         j.ToTable("UserRoles");
                     });
         });
 
         modelBuilder.Entity<UserClaim>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__UserClai__E22E29E41F7BF90C");
+            entity.HasKey(e => e.Id).HasName("PK_AspNetUserClaims");
 
-            entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.ClaimType).HasMaxLength(256);
-            entity.Property(e => e.ClaimValue).HasMaxLength(256);
+            entity.Property(e => e.UserId).HasMaxLength(450);
 
             entity.HasOne(d => d.User).WithMany(p => p.UserClaims)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__UserClaim__UserI__286302EC");
+                .HasConstraintName("FK_AspNetUserClaims_AspNetUsers_UserId");
         });
 
         modelBuilder.Entity<UserLogin>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__UserLogi__107D568C9D8EFF01");
+            entity.HasKey(e => new { e.LoginProvider, e.ProviderKey }).HasName("PK_AspNetUserLogins");
 
-            entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.LoginProvider).HasMaxLength(256);
-            entity.Property(e => e.ProviderKey).HasMaxLength(256);
+            entity.Property(e => e.UserId).HasMaxLength(450);
 
             entity.HasOne(d => d.User).WithMany(p => p.UserLogins)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__UserLogin__UserI__2E1BDC42");
+                .HasConstraintName("FK_AspNetUserLogins_AspNetUsers_UserId");
         });
 
         modelBuilder.Entity<UserToken>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__UserToke__BD92DEDB5AF0EC7E");
-
-            entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.LoginProvider).HasMaxLength(256);
-            entity.Property(e => e.Name).HasMaxLength(256);
-            entity.Property(e => e.Value).HasMaxLength(256);
+            entity.HasKey(e => new { e.UserId, e.LoginProvider, e.Name }).HasName("PK_AspNetUserTokens");
 
             entity.HasOne(d => d.User).WithMany(p => p.UserTokens)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__UserToken__UserI__2B3F6F97");
+                .HasConstraintName("FK_AspNetUserTokens_AspNetUsers_UserId");
         });
 
         OnModelCreatingPartial(modelBuilder);

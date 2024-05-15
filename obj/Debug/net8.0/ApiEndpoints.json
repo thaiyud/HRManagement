@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "HRManagement.Controllers.RoleController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Role/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleDTO",
+        "Type": "HRManagement.DTO.RoleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HRManagement.Controllers.UsersController",
     "Method": "SignIn",
     "RelativePath": "api/Users/signin",

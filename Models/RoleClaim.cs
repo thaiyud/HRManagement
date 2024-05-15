@@ -7,7 +7,7 @@ public partial class RoleClaim
 {
     public int Id { get; set; }
 
-    public int RoleId { get; set; }
+    public string RoleId { get; set; } = null!;
 
     public string? ClaimType { get; set; }
 

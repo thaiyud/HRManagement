@@ -1,6 +1,10 @@
 
 using HRManagement.Models;
+using HRManagement.Repositories.Implementations;
+using HRManagement.Repositories.Interfaces;
 using HRManagement.Services;
+using HRManagement.Services.Implementations;
+using HRManagement.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -26,9 +30,16 @@ namespace HRManagement
                 options.AddDefaultPolicy(policy =>
                     policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
+            // khai bao repo
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+
+
             // khai báo services
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IRoleService, RoleService>();
+
 
             // Configure JWT Authentication
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

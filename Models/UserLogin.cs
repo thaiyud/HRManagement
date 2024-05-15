@@ -5,13 +5,13 @@ namespace HRManagement.Models;
 
 public partial class UserLogin
 {
-    public int Id { get; set; }
+    public string LoginProvider { get; set; } = null!;
 
-    public string? LoginProvider { get; set; }
+    public string ProviderKey { get; set; } = null!;
 
-    public string? ProviderKey { get; set; }
+    public string? ProviderDisplayName { get; set; }
 
-    public int UserId { get; set; }
+    public string UserId { get; set; } = null!;
 
     public virtual User User { get; set; } = null!;
 }

@@ -1,5 +1,5 @@
 ﻿using HRManagement.DTO;
-using HRManagement.Services;
+using HRManagement.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

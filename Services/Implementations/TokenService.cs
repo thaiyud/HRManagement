@@ -1,4 +1,5 @@
 ﻿using HRManagement.Models;
+using HRManagement.Services.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -27,7 +28,7 @@ namespace HRManagement.Services
                 {
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                     new Claim(ClaimTypes.Email, user.Email),
-                    new Claim(ClaimTypes.Name, user.Username),
+                    new Claim(ClaimTypes.Name, user.UserName),
                     // Add role claim
                    // new Claim(ClaimTypes.Role, role.RoleName)
                 }),

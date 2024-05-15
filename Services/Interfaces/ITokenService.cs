@@ -1,6 +1,6 @@
 ﻿using HRManagement.Models;
 
-namespace HRManagement.Services
+namespace HRManagement.Services.Interfaces
 {
     public interface ITokenService
     {

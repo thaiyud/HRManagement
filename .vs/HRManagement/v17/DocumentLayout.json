@@ -1,65 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\sem6\\.Net\\HRManagement\\",
+  "WorkspaceRootPath": "D:\\sem6\\GirHub\\HRManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|d:\\sem6\\.net\\hrmanagement\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|d:\\sem6\\girhub\\hrmanagement\\script.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:script.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|d:\\sem6\\girhub\\hrmanagement\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\dto\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\dto\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:dto\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\dto\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\dto\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:dto\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\models\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\models\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:models\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\models\\hrmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\models\\hrmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:models\\hrmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\.Net\\HRManagement\\hrmanagement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|D:\\sem6\\GirHub\\HRManagement\\hrmanagement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{66299356-1B61-4E10-9021-024BC663E607}|HRManagement.csproj|solutionrelative:hrmanagement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,23 +106,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Services\\TokenService.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Services\\TokenService.cs",
-              "RelativeToolTip": "Services\\TokenService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:12:43.864Z"
+              "DocumentIndex": 0,
+              "Title": "script.txt",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\script.txt",
+              "RelativeDocumentMoniker": "script.txt",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\script.txt",
+              "RelativeToolTip": "script.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-14T04:33:27.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Services\\UserService.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Services\\UserService.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAmwDYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -126,11 +131,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ITokenService.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Services\\ITokenService.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Services\\ITokenService.cs",
               "RelativeDocumentMoniker": "Services\\ITokenService.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Services\\ITokenService.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Services\\ITokenService.cs",
               "RelativeToolTip": "Services\\ITokenService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,11 +143,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Services\\IUserService.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Services\\IUserService.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Services\\IUserService.cs",
               "RelativeToolTip": "Services\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,11 +155,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Program.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Program.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAUwDkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -162,11 +167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SignUpDTO.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\DTO\\SignUpDTO.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\DTO\\SignUpDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SignUpDTO.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\DTO\\SignUpDTO.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\DTO\\SignUpDTO.cs",
               "RelativeToolTip": "DTO\\SignUpDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -174,11 +179,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\appsettings.json",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\appsettings.json",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -186,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +204,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:12:43.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SignInDTO.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\DTO\\SignInDTO.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\DTO\\SignInDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SignInDTO.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\DTO\\SignInDTO.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\DTO\\SignInDTO.cs",
               "RelativeToolTip": "DTO\\SignInDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,11 +228,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Models\\User.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Models\\User.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +240,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Role.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Models\\Role.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Models\\Role.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Models\\Role.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Models\\Role.cs",
               "RelativeToolTip": "Models\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,11 +252,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserToken.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Models\\UserToken.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Models\\UserToken.cs",
               "RelativeDocumentMoniker": "Models\\UserToken.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Models\\UserToken.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Models\\UserToken.cs",
               "RelativeToolTip": "Models\\UserToken.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -247,11 +264,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -259,22 +276,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "HRManagement",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\HRManagement.csproj",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\HRManagement.csproj",
               "RelativeDocumentMoniker": "HRManagement.csproj",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\HRManagement.csproj",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\HRManagement.csproj",
               "RelativeToolTip": "HRManagement.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-05-12T21:14:56.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HrmanagementContext.cs",
-              "DocumentMoniker": "D:\\sem6\\.Net\\HRManagement\\Models\\HrmanagementContext.cs",
+              "DocumentMoniker": "D:\\sem6\\GirHub\\HRManagement\\Models\\HrmanagementContext.cs",
               "RelativeDocumentMoniker": "Models\\HrmanagementContext.cs",
-              "ToolTip": "D:\\sem6\\.Net\\HRManagement\\Models\\HrmanagementContext.cs",
+              "ToolTip": "D:\\sem6\\GirHub\\HRManagement\\Models\\HrmanagementContext.cs",
               "RelativeToolTip": "Models\\HrmanagementContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
